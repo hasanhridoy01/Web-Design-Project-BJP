@@ -1,0 +1,105 @@
+/*::::::::::::::::::menu-strat:::::::::::::::::::*/
+.Menu{
+	position: sticky;
+	top: 0px;
+	left: 0px;
+	z-index: 100;
+}
+.Icon{
+	font-size: 40px;
+	margin-left: 10px;
+	color: blue;
+
+}
+.Icon i{
+	color: gray;
+	margin-left: 20px;
+}
+
+.logo{
+	border: 4px solid gray;
+	height: 43px;
+	width: 160px;
+}
+.logo:hover{
+	background-color: blue;
+	color: white;
+}
+.logo h4{
+	padding: 7px;
+	margin-right: 0px;
+	font-size: 20px;
+}
+.btn{
+   margin-left: 15px;
+}
+/*::::::::::::::::::::::::::::menu-End:::::::::::::::::::::*/
+/*:::::::::::::::::::::::Slider-Strat:::::::::::::::::::::*/
+.lorem h1{ 
+    margin-bottom: 36px;
+    font-size: 46px;
+}
+.lorem p{
+   margin-bottom: 40px;
+   font-size: 20px;
+   font-family: sans-serif;
+}
+/*:::::::::::::::::::::::::::::Slider-End:::::::::::::::::*/
+/*::::::::::::::::::::::::::::Content1_strat::::::::::::::*/
+.card img{
+	height: 200px;
+	width: 100%;
+}
+.card card-body card-title h4{
+    
+}
+.card card-body card-title card-text{
+	text-align: justify;
+}
+/*::::::::::::::::::::::::::::::Content8:::::::::::::::*/
+.T-img{
+	overflow: hidden;
+}
+.T-img img{
+	transition: 0.75s;
+
+}
+.T-img img:hover{
+	transform: scale(1.3);
+}
+/*:::::::::::::::::::::::::::Content9::::::::::::::::::*/
+
+.card-de h4{
+   font-size: 5px;
+}
+/*::::::::::::::::::::::::Content18::::::::::::::::*/
+
+.Carousel-img {
+	overflow: hidden;
+}
+.Carousel-img img{
+	transition: 0.75s;
+}
+.Carousel-img img:hover{
+	transform: scale(1.4);
+}
+
+
+/*::::::::::::::JavaScript_Strat::::::::::::::::::::::*/
+
+
+.mainImg img{
+	height: 300px;
+	width: 412px;
+	padding: 10px;
+}
+
+.SubImg img{
+  height: 100px;
+  width: 100px;
+  margin-top: 20px;
+  padding: 10px;
+}
+  
+
+/*::::::::::::::JavaScript_End::::::::::::::::::::::*/
