@@ -1,546 +1,531 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Javascript Project</title>
-	<link rel="stylesheet" type="text/css" href="bootstrap-4.3.1-dist/css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
+  <head>
+    <title>Javascript Project</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap-4.3.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
-</head>
-<body>
-	<!-- ::::::::::::::::::::::: Menu-strat ::::::::::::::::::-->
-	 	<div class="Menu">
-	      <div class="row">
-	 		<div class="col-sm-12">
-	 			<nav class="navbar navbar-expand-sm bg-danger navbar-dark">
-	 				<div class="logo">
-	 					<h4>Coders Trust</h4>
-	 				</div>
-	 				<button class="btn btn-outline-info navbar-toggler" data-target="#mymenu" data-toggle="collapse">
-	 					<span class="navbar-toggler-icon"></span>
-	 				</button>
-	 			  <div class="collapse navbar-collapse" id="mymenu">
-		 			<ul class="nav navbar-nav" style="margin-left: 55PX;">
-		 				<li><a href="index.html" class="nav-link">Bootstrap</a></li>
-		 				<li><a href="javascript.html" class="nav-link">Javascript</a></li>
-		 				<li><a href="jquery.html" class="nav-link">Jquery</a></li>
-                        <li><a href="" class="nav-link">Php</a></li>
-		 				<li class="dropdown"><a href="" id="myDropdown" class="nav-link dropdown-toggle" data-toggle="dropdown">Blog</a>
-                           <ul class="dropdown-menu bg-danger" aria-labelledby="myDropdown">
-                           	  <li><a href="single.html" class="nav-link">Single Blog</a></li>
-                           	  <li><a href="Blog.html" class="nav-link">Blog</a></li>
-                           </ul>
-		 				</li>
-		 				<li><a href="" class="nav-link">Contect Us</a></li>
-		 			</ul>
-		 			<form action="" method="" class="form-inline" style=" margin-left: 170PX;">
-		 				<input type="text" class="form-control" placeholder="Search">
-		 				<button class="btn btn-outline-primary ml-1">Search</button>
-		 			</form>
-                     <button data-target="#mymodal" class="btn btn-outline-info" class="btn" data-toggle="modal">Sing In</button>
-	                     
-                     <button data-target="#mrmodal" class="btn btn-outline-info" data-toggle="modal">Sign Up</button>
-                       
-		 		 </div>
-	 		   </nav>
-	 		</div>
-	 	 </div>
-	   </div>
-	<!--  :::::::::::Menu_End ::::::::::::::::::::::::::-->
-	<!-- ::::::::::::Slider-Strat::::::::::::::::::::::: -->
-	<section id="Slider">
-		<div class="row">
-			<div class="col-sm-12">
-				<div class="carousel slide" data-ride="carousel" data-intercal="1000">
-					<div class="carousel-inner">
-						<div class="carousel-item active">
-							<img src="img/2.jpg" alt="" style="height: 400px; width: 100%">
-							<div class="carousel-caption">
-								<div class="lorem">
-									<h1>lorem ipsum doler sit amrt</h1>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
-									<span style="font-size: 45px;"><i class="fa fa-facebook-square"></i></span>
-									<span style="font-size: 45px; margin-left: 10px;"><i class="fa fa-twitter-square"></i></span>
-									<span style="font-size: 45px; margin-left: 10px;"><i class="fa fa-instagram"></i></span>
-								</div>
-							</div>
-						</div>
-						<div class="carousel-item">
-							<img src="img/a.jpg" alt="" style="height: 400px; width: 100%">
-							<div class="carousel-caption">
-								<div class="lorem">
-									<h1>lorem ipsum doler sit amrt</h1>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
-									<span style="font-size: 45px;"><i class="fa fa-facebook-square"></i></span>
-									<span style="font-size: 45px; margin-left: 10px;"><i class="fa fa-twitter-square"></i></span>
-									<span style="font-size: 45px; margin-left: 10px;"><i class="fa fa-instagram"></i></span>
-								</div>
-							</div>
-						</div>
-						<div class="carousel-item">
-							<img src="img/27.jpg" alt="" style="height: 400px; width: 100%">
-							<div class="carousel-caption">
-								<div class="lorem">
-									<h1>lorem ipsum doler sit amrt</h1>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
-									<span style="font-size: 45px;"><i class="fa fa-facebook-square"></i></span>
-									<span style="font-size: 45px; margin-left: 10px;"><i class="fa fa-twitter-square"></i></span>
-									<span style="font-size: 45px; margin-left: 10px;"><i class="fa fa-instagram"></i></span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-    <!-- ::::::::::::::::::Slider-End:::::::::::::::::: -->
-    <!-- ::::::::::::::::Content-Strat::::::::::::::::: -->
-    <section id="Content0">
-      <div class="container">
-        <div class="row mt-5">
-           <h1 style="color: red; margin-left: 310px; margin-bottom: 20px; font-size: 50px;">JavaScript Images Change</h1>
-          <div>
-            <div class="card shadow-lg">
-              <div class="card-body">
-                <img src="img/2.jpg" alt="" id="imgOp" style="height: 300px; width: 100%;">
+  </head>
+  <body>
+    <!-- ::::::::::::::::::::::: Menu-strat ::::::::::::::::::-->
+    <div class="Menu">
+      <div class="row">
+        <div class="col-sm-12">
+          <nav class="navbar navbar-expand-sm bg-danger navbar-dark">
+            <div class="">
+              <a class="btn btn-outline-success text-light" href="">Coders Trust</a>
+            </div>
+            <button class="btn btn-outline-info navbar-toggler" data-target="#mymenu" data-toggle="collapse">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mymenu">
+              <ul class="nav navbar-nav" style="margin-left: 55PX;">
+                <li><a href="index.html" class="nav-link">Bootstrap</a></li>
+                <li><a href="javascript.html" class="nav-link">Javascript</a></li>
+                <li><a href="jquery.html" class="nav-link">Jquery</a></li>
+                <li><a href="" class="nav-link">Php</a></li>
+                <li class="dropdown"><a href="" id="myDropdown" class="nav-link dropdown-toggle" data-toggle="dropdown">Blog</a>
+                <ul class="dropdown-menu bg-danger" aria-labelledby="myDropdown">
+                  <li><a href="single.html" class="nav-link">Single Blog</a></li>
+                  <li><a href="Blog.html" class="nav-link">Blog</a></li>
+                </ul>
+              </li>
+              <li><a href="" class="nav-link">Contect Us</a></li>
+            </ul>
+            <form action="" method="" class="form-inline" style=" margin-left: 170PX;">
+              <input type="text" class="form-control" placeholder="Search">
+              <button class="btn btn-outline-primary ml-1">Search</button>
+            </form>
+            <button data-target="#mymodal" class="btn btn-outline-info" class="btn" data-toggle="modal">Sing In</button>
+            
+            <button data-target="#mrmodal" class="btn btn-outline-info" data-toggle="modal">Sign Up</button>
+            
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <!--  :::::::::::Menu_End ::::::::::::::::::::::::::-->
+  <!-- ::::::::::::Slider-Strat::::::::::::::::::::::: -->
+  <section id="Slider">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="carousel slide" data-ride="carousel" data-intercal="1000">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/2.jpg" alt="" style="height: 400px; width: 100%">
+              <div class="carousel-caption">
+                <div class="lorem">
+                  <h1>lorem ipsum doler sit amrt</h1>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                  <span style="font-size: 45px;"><i class="fa fa-facebook-square"></i></span>
+                  <span style="font-size: 45px; margin-left: 10px;"><i class="fa fa-twitter-square"></i></span>
+                  <span style="font-size: 45px; margin-left: 10px;"><i class="fa fa-instagram"></i></span>
+                </div>
               </div>
-              <script>
-                var index = 0;
-                function slider(){
-                  var data =  ['img/27.jpg','img/18.jpg','img/19.jpg','img/20.jpg','img/21.jpg','img/a.jpg'];
-                  var imgOp = document.getElementById('imgOp');
-                  imgOp.setAttribute('src',data[index]);
-                  index++;
-                  if ( index >= data.length) {
-                    index = 0;
-                  }
-                }
-                setInterval(slider, 3000);
-              </script>
+            </div>
+            <div class="carousel-item">
+              <img src="img/a.jpg" alt="" style="height: 400px; width: 100%">
+              <div class="carousel-caption">
+                <div class="lorem">
+                  <h1>lorem ipsum doler sit amrt</h1>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                  <span style="font-size: 45px;"><i class="fa fa-facebook-square"></i></span>
+                  <span style="font-size: 45px; margin-left: 10px;"><i class="fa fa-twitter-square"></i></span>
+                  <span style="font-size: 45px; margin-left: 10px;"><i class="fa fa-instagram"></i></span>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/27.jpg" alt="" style="height: 400px; width: 100%">
+              <div class="carousel-caption">
+                <div class="lorem">
+                  <h1>lorem ipsum doler sit amrt</h1>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                  <span style="font-size: 45px;"><i class="fa fa-facebook-square"></i></span>
+                  <span style="font-size: 45px; margin-left: 10px;"><i class="fa fa-twitter-square"></i></span>
+                  <span style="font-size: 45px; margin-left: 10px;"><i class="fa fa-instagram"></i></span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <section id="Content1">
-    	<div class="container">
-    		<h1 style="color: red; margin-top: 30px; margin-left: 90px;">Javascript Can Do Your First_Name And Last_Name</h1>
-    		<div class="row mt-5">
-    			<table class="table table-bordered table shadow-lg">
-    				<tr>
-    					<td>First_Name:</td>
-    					<td><input type="text" placeholder="First_Name" id="fristName" class="form-control ml-1"></td>
-    				</tr>
-    				<tr>
-    					<td>Last_Name:</td>
-    					<td><input type="text" placeholder="Last_Name" id="lastName" class="form-control mt-1 ml-1"></td>
-    				</tr>
-    				<tr>
-    					<td></td>
-    					<td>
-    						<button class="btn btn-outline-success mt-1 btn-block ml-1" onclick="MakeFullName()" id="MakeFullName">MakeFullName</button>
-    					</td>
-    				</tr>
-    				<tr>
-    					<td>Full_Name:</td>
-    					<td id="FullName"></td>
-    				</tr>
-    			</table>
-
-    			<script>
-    				function MakeFullName(){
-    				  var fristName = document.getElementById('fristName').value;
-    				  var lastName = document.getElementById('lastName').value;
-    				  FullName = fristName + lastName;
-    				  document.getElementById('FullName').innerHTML = FullName; 
-    				}
-    			</script>
-    		</div>
-    	</div>
-    </section>
-    <section id="Content2">
-    	<div class="container">
-    		<div class="row mt-5">
-    			<h1 style="color: red; margin-top: 20px; margin-left: 290px; margin-bottom: 30px;">Javascript Can Do Calculator</h1>
-    			<table class="table table-bordered table shadow-lg">
-    				<tr>
-    					<td>First_Number:</td>
-    					<td><input type="text" placeholder="First_Number" class="form-control" id="FirstNumber"></td>
-    				</tr>
-    				<tr>
-    					<td>Last_Number:</td>
-    					<td><input type="text" placeholder="Last_Number" class="form-control" id="LastNumber"></td>
-    				</tr>
-    				<tr>
-    					<td></td>
-    					<td>
-    						<input type="submit" id="pluse" value="+">
-    						<input type="submit" id="minus" value="-">
-    						<input type="submit" id="multiplication" value="*">
-    						<input type="submit" id="division" value="/">
-    						<input type="submit" id="reminder" value="%">
-    					</td>
-    				</tr>
-    				<tr>
-    					<td>Result:</td>
-    					<td><p id="Result"></p></td>
-    				</tr>
-    			</table>
-                <script>
-                    var pluse = document.getElementById('pluse');
-                    pluse.onclick = function(){
-                        var FirstNumber = Number(document.getElementById('FirstNumber').value);
-                        var LastNumber = Number(document.getElementById('LastNumber').value);
-                        var Result = FirstNumber + LastNumber;
-                        document.getElementById('Result').innerHTML = Result;
-                    }
-                    var minus = document.getElementById('minus');
-                    minus.onclick = function(){
-                        var FirstNumber = Number(document.getElementById('FirstNumber').value);
-                        var LastNumber = Number(document.getElementById('LastNumber').value);
-                        var Result = FirstNumber - LastNumber;
-                        document.getElementById('Result').innerHTML = Result;
-                    }
-                     var multiplication = document.getElementById('multiplication');
-                    multiplication.onclick = function(){
-                        var FirstNumber = Number(document.getElementById('FirstNumber').value);
-                        var LastNumber = Number(document.getElementById('LastNumber').value);
-                        var Result = FirstNumber * LastNumber;
-                        document.getElementById('Result').innerHTML = Result;
-                    }
-                    var division = document.getElementById('division');
-                    division.onclick = function(){
-                        var FirstNumber = Number(document.getElementById('FirstNumber').value);
-                        var LastNumber = Number(document.getElementById('LastNumber').value);
-                        var Result = FirstNumber / LastNumber;
-                        document.getElementById('Result').innerHTML = Result;
-                    }
-                    var reminder = document.getElementById('reminder');
-                    reminder.onclick = function(){
-                        var FirstNumber = Number(document.getElementById('FirstNumber').value);
-                        var LastNumber = Number(document.getElementById('LastNumber').value);
-                        var Result = FirstNumber % LastNumber;
-                        document.getElementById('Result').innerHTML = Result;
-                    }
-                </script>
-    		</div>
-    	</div>
-    </section>
-    <section id="Content3">
-        <div class="container">
-            <h1 style="color: red; margin-top: 20px; margin-left: 290px; margin-top: 20px;">Javascript Number assian </h1>
-            <div class="row mt-5">
-               <table class="table table-bordered table shadow-lg">
-                   <tr>
-                       <td>First_Number: </td>
-                       <td><input type="text" placeholder="First_Number" id="FirstNumber" class="form-control"></td>
-                   </tr>
-                   <tr>
-                       <td>Last_Number: </td>
-                       <td><input type="text" placeholder="Last_Number" id="SecondNumber" class="form-control"></td>
-                   </tr>
-                   <tr>
-                       <td></td>
-                       <td><input type="button" id="btn" value="submit" class="btn btn-outline-info btn-block ml-auto"></td>
-                   </tr>
-                   <tr>
-                       <td>Result</td>
-                       <td>
-                           <textarea id="result" cols="30" rows="5"></textarea>
-                       </td>
-                   </tr>
-               </table> 
-               <script>
-                   var btn = document.getElementById('btn');
-                   btn.onclick = function(){
-                    var FirstNumber = Number(document.getElementById('FirstNumber').value);
-                    var SecondNumber = Number(document.getElementById('SecondNumber').value);
-                    var result = document.getElementById('result');
-
-                    for (var i = FirstNumber; i <= SecondNumber; i++) {
-                        result.innerHTML += i+',';
-                    }
-                   }
-               </script>
-            </div>
-        </div>
-    </section>
-    <section id="Content4">
-        <div class="container">
-            <div class="row mt-5">
-                <h1 style="color: red; margin-top: 20px; margin-left: 340px; margin-bottom: 30px;">Javascript Css SetUp </h1>
-                <div class="col-sm-12">
-                   <div class="card shadow-lg">
-                     <div class="card-body">
-                         <div>
-                      <button id="Red" class="btn btn-outline-danger">Red</button>
-                      <button id="Green" class="btn btn-outline-success">Green</button>
-                      <button id="Yellow" class="btn btn-outline-warning">yellow</button>
-                      <button id="Deafult" class="btn btn-outline-info">Deafult</button>    
-                    </div>
-
-                <div id="Box" style="height: 300px; width: 300px; border: 5px solid gray; margin-left: 5px; margin-top: 10px;">
-                    
-                </div>
-                     </div>
-                </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <script>
-        var redbtn = document.getElementById('Red');
-        var box = document.getElementById('Box');
-        redbtn.onclick = function(){
-            box.style.backgroundColor = 'red';
-            box.style.borderRadius = '50%';
-        }
-        var greenbtn = document.getElementById('Green');
-        greenbtn.onclick = function(){
-             box.style.backgroundColor = 'green';
-        }
-        var yellowbtn = document.getElementById('Yellow');
-        yellowbtn.onclick = function(){
-             box.style.backgroundColor = 'yellow';
-        }
-        
-    </script>
-    <section id="Content5">
-        <div class="container">
-            <div class="row mt-5">
-                <h1 style="color: red; margin-top: 20px; margin-bottom: 30px;">JavaScript can do html excute Value Just Tab The Small Img</h1>
-                <div class="card shadow-lg">
-                    <div class="card-body">
-                         <div class="mainImg">
-                             <img src="img/2.jpg" alt="" id="mainImg">
-                         </div>
-                         <div class="SubImg">
-                             <img src="img/19.jpg" alt="" id="imgOne">
-                             <img src="img/20.jpg" alt="" id="imgTwo">
-                             <img src="img/18.jpg" alt="" id="imgThree">
-                             <img src="img/a.jpg" alt="" id="imgFour">
-                         </div>
-                        </div>
-                    </div>
-
-                    <div class="card shadow-lg ml-5">
-                    <div class="card-body">
-                         <div class="mainImg">
-                             <img src="img/2.jpg" alt="" id="mainImg2">
-                         </div>
-                         <div class="SubImg">
-                             <img src="img/21.jpg" alt="" id="imgfive">
-                             <img src="img/24.jpg" alt="" id="imgsix">
-                             <img src="img/17.jpg" alt="" id="imgseven">
-                             <img src="img/27.jpg" alt="" id="imgeight">
-                         </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <script>
-        var imgOne = document.getElementById('imgOne');
-        var mainImg = document.getElementById('mainImg');
-        imgOne.onclick = function(){
-           var imgOneSrc = imgOne.getAttribute('src');
-           var mainImgSrc = mainImg.getAttribute('src');
-           mainImg.setAttribute('src',imgOneSrc);
-           imgOne.setAttribute('src',mainImgSrc);
-        }
-
-        var imgTwo = document.getElementById('imgTwo');
-        imgTwo.onclick = function(){
-           var imgTwoSrc = imgTwo.getAttribute('src');
-           var mainImgSrc = mainImg.getAttribute('src');
-           mainImg.setAttribute('src',imgTwoSrc);
-           imgTwo.setAttribute('src',mainImgSrc);
-       }
-
-       var imgThree = document.getElementById('imgThree');
-        imgThree.onclick = function(){
-           var imgTwoSrc = imgThree.getAttribute('src');
-           var mainImgSrc = mainImg.getAttribute('src');
-           mainImg.setAttribute('src',imgTwoSrc);
-           imgThree.setAttribute('src',mainImgSrc);
-       }
-
-       var imgFour = document.getElementById('imgFour');
-        imgFour.onclick = function(){
-           var imgTwoSrc = imgFour.getAttribute('src');
-           var mainImgSrc = mainImg.getAttribute('src');
-           mainImg.setAttribute('src',imgTwoSrc);
-           imgFour.setAttribute('src',mainImgSrc);
-       }
-
-       var imgfive = document.getElementById('imgfive');
-        var mainImg2 = document.getElementById('mainImg2');
-        imgfive.onclick = function(){
-           var imgOneSrc = imgfive.getAttribute('src');
-           var mainImg2Src = mainImg2.getAttribute('src');
-           mainImg2.setAttribute('src',imgOneSrc);
-           imgfive.setAttribute('src',mainImg2Src);
-        }
-
-        var imgsix = document.getElementById('imgsix');
-        var mainImg2 = document.getElementById('mainImg2');
-        imgsix.onclick = function(){
-           var imgOneSrc = imgsix.getAttribute('src');
-           var mainImg2Src = mainImg2.getAttribute('src');
-           mainImg2.setAttribute('src',imgOneSrc);
-           imgsix.setAttribute('src',mainImg2Src);
-        }
-        
-        var imgseven = document.getElementById('imgseven');
-        var mainImg2 = document.getElementById('mainImg2');
-        imgseven.onclick = function(){
-           var imgOneSrc = imgseven.getAttribute('src');
-           var mainImg2Src = mainImg2.getAttribute('src');
-           mainImg2.setAttribute('src',imgOneSrc);
-           imgseven.setAttribute('src',mainImg2Src);
-        }
-
-        var imgeight = document.getElementById('imgeight');
-        var mainImg2 = document.getElementById('mainImg2');
-        imgeight.onclick = function(){
-           var imgOneSrc = imgeight.getAttribute('src');
-           var mainImg2Src = mainImg2.getAttribute('src');
-           mainImg2.setAttribute('src',imgOneSrc);
-           imgeight.setAttribute('src',mainImg2Src);
-        }
-
-
-    </script>
-    <section id="Content6">
-      <div class="container">
-        <div class="row mt-5">
-          <h1 style="color: red; margin-left: 340px; margin-bottom: 20px; font-size: 50px;">JavaScript Times</h1>
-          <div class="card shadow-lg bg-warning" style="border: 10px solid gray;">
+    </div>
+  </section>
+  <!-- ::::::::::::::::::Slider-End:::::::::::::::::: -->
+  <!-- ::::::::::::::::Content-Strat::::::::::::::::: -->
+  <section id="Content0">
+    <div class="container">
+      <div class="row mt-5">
+        <h1 style="color: red; margin-left: 310px; margin-bottom: 20px; font-size: 50px;">JavaScript Images Change</h1>
+        <div>
+          <div class="card shadow-lg">
             <div class="card-body">
-              <h1 id="showTime" style=" font-size: 210px; color: red; padding: 10px;"></h1>
-               <script>
-                   function clock(){
-                     var ndate = new Date();
-                     var minutes = ndate.getMinutes();
-                     var seconds = ndate.getSeconds();
-                     var hours = ndate.getHours();
-
-                     var showTime = document.getElementById('showTime');
-                     showTime.innerHTML = hours+ ' : ' +minutes+ ' : ' +seconds;
-                     }
-
-                     setInterval(clock,1000);
-               </script>
+              <img src="img/2.jpg" alt="" id="imgOp" style="height: 300px; width: 100%;">
+            </div>
+            <script>
+            var index = 0;
+            function slider(){
+            var data =  ['img/27.jpg','img/18.jpg','img/19.jpg','img/20.jpg','img/21.jpg','img/a.jpg'];
+            var imgOp = document.getElementById('imgOp');
+            imgOp.setAttribute('src',data[index]);
+            index++;
+            if ( index >= data.length) {
+            index = 0;
+            }
+            }
+            setInterval(slider, 3000);
+            </script>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="Content1">
+    <div class="container">
+      <h1 style="color: red; margin-top: 30px; margin-left: 90px;">Javascript Can Do Your First_Name And Last_Name</h1>
+      <div class="row mt-5">
+        <table class="table table-bordered table shadow-lg">
+          <tr>
+            <td>First_Name:</td>
+            <td><input type="text" placeholder="First_Name" id="fristName" class="form-control ml-1"></td>
+          </tr>
+          <tr>
+            <td>Last_Name:</td>
+            <td><input type="text" placeholder="Last_Name" id="lastName" class="form-control mt-1 ml-1"></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <button class="btn btn-outline-success mt-1 btn-block ml-1" onclick="MakeFullName()" id="MakeFullName">MakeFullName</button>
+            </td>
+          </tr>
+          <tr>
+            <td>Full_Name:</td>
+            <td id="FullName"></td>
+          </tr>
+        </table>
+        <script>
+        function MakeFullName(){
+        var fristName = document.getElementById('fristName').value;
+        var lastName = document.getElementById('lastName').value;
+        FullName = fristName + lastName;
+        document.getElementById('FullName').innerHTML = FullName;
+        }
+        </script>
+      </div>
+    </div>
+  </section>
+  <section id="Content2">
+    <div class="container">
+      <div class="row mt-5">
+        <h1 style="color: red; margin-top: 20px; margin-left: 290px; margin-bottom: 30px;">Javascript Can Do Calculator</h1>
+        <table class="table table-bordered table shadow-lg">
+          <tr>
+            <td>First_Number:</td>
+            <td><input type="text" placeholder="First_Number" class="form-control" id="FirstNumber"></td>
+          </tr>
+          <tr>
+            <td>Last_Number:</td>
+            <td><input type="text" placeholder="Last_Number" class="form-control" id="LastNumber"></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <input type="submit" id="pluse" value="+">
+              <input type="submit" id="minus" value="-">
+              <input type="submit" id="multiplication" value="*">
+              <input type="submit" id="division" value="/">
+              <input type="submit" id="reminder" value="%">
+            </td>
+          </tr>
+          <tr>
+            <td>Result:</td>
+            <td><p id="Result"></p></td>
+          </tr>
+        </table>
+        <script>
+        var pluse = document.getElementById('pluse');
+        pluse.onclick = function(){
+        var FirstNumber = Number(document.getElementById('FirstNumber').value);
+        var LastNumber = Number(document.getElementById('LastNumber').value);
+        var Result = FirstNumber + LastNumber;
+        document.getElementById('Result').innerHTML = Result;
+        }
+        var minus = document.getElementById('minus');
+        minus.onclick = function(){
+        var FirstNumber = Number(document.getElementById('FirstNumber').value);
+        var LastNumber = Number(document.getElementById('LastNumber').value);
+        var Result = FirstNumber - LastNumber;
+        document.getElementById('Result').innerHTML = Result;
+        }
+        var multiplication = document.getElementById('multiplication');
+        multiplication.onclick = function(){
+        var FirstNumber = Number(document.getElementById('FirstNumber').value);
+        var LastNumber = Number(document.getElementById('LastNumber').value);
+        var Result = FirstNumber * LastNumber;
+        document.getElementById('Result').innerHTML = Result;
+        }
+        var division = document.getElementById('division');
+        division.onclick = function(){
+        var FirstNumber = Number(document.getElementById('FirstNumber').value);
+        var LastNumber = Number(document.getElementById('LastNumber').value);
+        var Result = FirstNumber / LastNumber;
+        document.getElementById('Result').innerHTML = Result;
+        }
+        var reminder = document.getElementById('reminder');
+        reminder.onclick = function(){
+        var FirstNumber = Number(document.getElementById('FirstNumber').value);
+        var LastNumber = Number(document.getElementById('LastNumber').value);
+        var Result = FirstNumber % LastNumber;
+        document.getElementById('Result').innerHTML = Result;
+        }
+        </script>
+      </div>
+    </div>
+  </section>
+  <section id="Content3">
+    <div class="container">
+      <h1 style="color: red; margin-top: 20px; margin-left: 290px; margin-top: 20px;">Javascript Number assian </h1>
+      <div class="row mt-5">
+        <table class="table table-bordered table shadow-lg">
+          <tr>
+            <td>First_Number: </td>
+            <td><input type="text" placeholder="First_Number" id="FirstNumber" class="form-control"></td>
+          </tr>
+          <tr>
+            <td>Last_Number: </td>
+            <td><input type="text" placeholder="Last_Number" id="SecondNumber" class="form-control"></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><input type="button" id="btn" value="submit" class="btn btn-outline-info btn-block ml-auto"></td>
+          </tr>
+          <tr>
+            <td>Result</td>
+            <td>
+              <textarea id="result" cols="30" rows="5"></textarea>
+            </td>
+          </tr>
+        </table>
+        <script>
+        var btn = document.getElementById('btn');
+        btn.onclick = function(){
+        var FirstNumber = Number(document.getElementById('FirstNumber').value);
+        var SecondNumber = Number(document.getElementById('SecondNumber').value);
+        var result = document.getElementById('result');
+        for (var i = FirstNumber; i <= SecondNumber; i++) {
+        result.innerHTML += i+',';
+        }
+        }
+        </script>
+      </div>
+    </div>
+  </section>
+  <section id="Content4">
+    <div class="container">
+      <div class="row mt-5">
+        <h1 style="color: red; margin-top: 20px; margin-left: 340px; margin-bottom: 30px;">Javascript Css SetUp </h1>
+        <div class="col-sm-12">
+          <div class="card shadow-lg">
+            <div class="card-body">
+              <div>
+                <button id="Red" class="btn btn-outline-danger">Red</button>
+                <button id="Green" class="btn btn-outline-success">Green</button>
+                <button id="Yellow" class="btn btn-outline-warning">yellow</button>
+                <button id="Deafult" class="btn btn-outline-info">Deafult</button>
+              </div>
+              <div id="Box" style="height: 300px; width: 300px; border: 5px solid gray; margin-left: 5px; margin-top: 10px;">
+                
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-   <!-- ::::::::::::::::::::: Content-End:::::::::::::: -->
-   <!-- ::::::::::::::::::::::::Modal-strat::::::::::::::: -->
-            <div class="modal fade" id="mymodal">
-	             <div class="modal-dialog">
-	                <div class="modal-content">
-	                    <div class="modal-header"> 
-                            <span style="font-size: 45px; color: blue; margin-left: 60px;"><i class="fa fa-facebook-square"></i></span>
-                            <span style="font-size: 45px; color: blue; margin-left: 10px;"><i class="fa fa-twitter-square"></i></span>
-                            <span style="font-size: 45px; color: blue; margin-left: 10px;"><i class=" fa fa-instagram"></i></span>
-                            <h4 style="margin-left: 30px; margin-top: 18px; color: blue;">SING IN?</h4>
-	                     	<a href="" class="close" data-dismiss="modal">X</a></div>
-	                     	<div class="modal-body">
-	                     	<form action="">
-	                        <div class="input-group">
-	                     	 <div class="input-group-prepend">
-	                     	   <span class="input-group-text"><i class="fa fa-user"></i></span>
-	                     	   </div>
-	                     		  <input type="text" class="form-control" name="email" placeholder="E_mail">
-	                     	</div>
-	                     	<div class="input-group mt-2">
-	                     		<div class="input-group-prepend">
-	                     			<span class="input-group-text"><i class="fa fa-lock"></i></span>
-	                     		</div>
-	                     			<input type="text" name="password" class="form-control" placeholder="Password">
-	                     	</div>
-	                     				<a href="" class="btn btn-outline-info mt-2 btn-block ml-auto" style="">Log In?</a>
-	                     				</form>
-	                     			</div>
-	                     			<div class="modal-footer">
-	                     			<a href="" style="margin-right: 150px;">Forget Password?</a>
-	                     	  </div>
-	                      </div>
-	                  </div>
-	             </div>
-	             <div class="modal fade" id="mrmodal">
-                     	  <div class="modal-dialog">
-                     		 <div class="modal-content">
-                     			<div class="modal-header">
-                                   <span style="font-size: 45px; color: blue; margin-left: 60px;"><i class="fa fa-facebook-square"></i></span>
-                                       <span style="font-size: 45px; color: blue; margin-left: 10px;"><i class="fa fa-twitter-square"></i></span>
-                                       <span style="font-size: 45px; color: blue; margin-left: 10px;"><i class=" fa fa-instagram"></i></span>
-                     				<a href="" class="close" data-dismiss="modal">X</a></div>
-                     			<div class="modal-body">
-                     				<form action="">
-	                     				   <div class="input-group">
-	                     					<div class="input-group-prepend">
-	                     						<span class="input-group-text"><i class="fa fa-user"></i></span>
-	                     					</div>
-	                     					<input type="text" class="form-control" name="First_Name" placeholder="First_Name">
-	                     				</div>
-                                        <div class="input-group mt-2">
-                                            <div class="input-group-prepend">
-                                                <span class="input-group-text"><i class="fa fa-user"></i></span>
-                                            </div>
-                                            <input type="text" class="form-control" name="Last_Name" placeholder="Last_Name">
-                                        </div>
-	                     				<div class="input-group mt-2">
-	                     					<div class="input-group-prepend">
-	                     						<span class="input-group-text"><i class="fa fa-lock"></i></span>
-	                     					</div>
-	                     					<input type="text" name="password" class="form-control" placeholder="Password">
-	                     				</div>
-                                        <div class="input-group mt-2">
-                                            <div class="input-group-prepend">
-                                                <span class="input-group-text"><i class="fa fa-lock"></i></span>
-                                            </div>
-                                            <input type="text" name="Confirm password" class="form-control" placeholder=" Confirm Password">
-                                        </div>
-	                     				<a href="" class="btn btn-outline-info mt-2 btn-block ml-auto" style="">Submit</a>
-	                     			</form>
-                     			</div>
-                     			<div class="modal-footer">
-                     				<a href="" style="margin-right: 150px;">Creat an Account?</a>
-                     			</div>
-                     		</div>
-                     	</div>
-                     </div>
-<!-- ::::::::::::::::::::::::::::::::::::modal-End::::::::::::::::: -->
-      <script src="js/jquery-3.4.1.js"></script>
-      <script src="js/owl.carousel.js"></script>
-      <script>
-          $('.owl-carousel').owlCarousel({
-           center: true,
-           nav: true,
-           loop: true,
-            margin: 3,
-            responsive:{
-                0:{
-                    item: 1
-                },
-                600:{
-                    item:3
-                },
-                1000:{
-                    item:6
-                }
-            }
-          });
-      </script>
-      <script src="bootstrap-4.3.1-dist/js/jquery-3.4.1.js"></script>
-      <script src="bootstrap-4.3.1-dist/js/bootstrap.js"></script>
-</body>
+    </div>
+  </section>
+  <script>
+  var redbtn = document.getElementById('Red');
+  var box = document.getElementById('Box');
+  redbtn.onclick = function(){
+  box.style.backgroundColor = 'red';
+  box.style.borderRadius = '50%';
+  }
+  var greenbtn = document.getElementById('Green');
+  greenbtn.onclick = function(){
+  box.style.backgroundColor = 'green';
+  }
+  var yellowbtn = document.getElementById('Yellow');
+  yellowbtn.onclick = function(){
+  box.style.backgroundColor = 'yellow';
+  }
+  
+  </script>
+  <section id="Content5">
+    <div class="container">
+      <div class="row mt-5">
+        <h1 style="color: red; margin-top: 20px; margin-bottom: 30px;">JavaScript can do html excute Value Just Tab The Small Img</h1>
+        <div class="card shadow-lg">
+          <div class="card-body">
+            <div class="mainImg">
+              <img src="img/2.jpg" alt="" id="mainImg">
+            </div>
+            <div class="SubImg">
+              <img src="img/19.jpg" alt="" id="imgOne">
+              <img src="img/20.jpg" alt="" id="imgTwo">
+              <img src="img/18.jpg" alt="" id="imgThree">
+              <img src="img/a.jpg" alt="" id="imgFour">
+            </div>
+          </div>
+        </div>
+        <div class="card shadow-lg ml-5">
+          <div class="card-body">
+            <div class="mainImg">
+              <img src="img/2.jpg" alt="" id="mainImg2">
+            </div>
+            <div class="SubImg">
+              <img src="img/21.jpg" alt="" id="imgfive">
+              <img src="img/24.jpg" alt="" id="imgsix">
+              <img src="img/17.jpg" alt="" id="imgseven">
+              <img src="img/27.jpg" alt="" id="imgeight">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<script>
+var imgOne = document.getElementById('imgOne');
+var mainImg = document.getElementById('mainImg');
+imgOne.onclick = function(){
+var imgOneSrc = imgOne.getAttribute('src');
+var mainImgSrc = mainImg.getAttribute('src');
+mainImg.setAttribute('src',imgOneSrc);
+imgOne.setAttribute('src',mainImgSrc);
+}
+var imgTwo = document.getElementById('imgTwo');
+imgTwo.onclick = function(){
+var imgTwoSrc = imgTwo.getAttribute('src');
+var mainImgSrc = mainImg.getAttribute('src');
+mainImg.setAttribute('src',imgTwoSrc);
+imgTwo.setAttribute('src',mainImgSrc);
+}
+var imgThree = document.getElementById('imgThree');
+imgThree.onclick = function(){
+var imgTwoSrc = imgThree.getAttribute('src');
+var mainImgSrc = mainImg.getAttribute('src');
+mainImg.setAttribute('src',imgTwoSrc);
+imgThree.setAttribute('src',mainImgSrc);
+}
+var imgFour = document.getElementById('imgFour');
+imgFour.onclick = function(){
+var imgTwoSrc = imgFour.getAttribute('src');
+var mainImgSrc = mainImg.getAttribute('src');
+mainImg.setAttribute('src',imgTwoSrc);
+imgFour.setAttribute('src',mainImgSrc);
+}
+var imgfive = document.getElementById('imgfive');
+var mainImg2 = document.getElementById('mainImg2');
+imgfive.onclick = function(){
+var imgOneSrc = imgfive.getAttribute('src');
+var mainImg2Src = mainImg2.getAttribute('src');
+mainImg2.setAttribute('src',imgOneSrc);
+imgfive.setAttribute('src',mainImg2Src);
+}
+var imgsix = document.getElementById('imgsix');
+var mainImg2 = document.getElementById('mainImg2');
+imgsix.onclick = function(){
+var imgOneSrc = imgsix.getAttribute('src');
+var mainImg2Src = mainImg2.getAttribute('src');
+mainImg2.setAttribute('src',imgOneSrc);
+imgsix.setAttribute('src',mainImg2Src);
+}
+var imgseven = document.getElementById('imgseven');
+var mainImg2 = document.getElementById('mainImg2');
+imgseven.onclick = function(){
+var imgOneSrc = imgseven.getAttribute('src');
+var mainImg2Src = mainImg2.getAttribute('src');
+mainImg2.setAttribute('src',imgOneSrc);
+imgseven.setAttribute('src',mainImg2Src);
+}
+var imgeight = document.getElementById('imgeight');
+var mainImg2 = document.getElementById('mainImg2');
+imgeight.onclick = function(){
+var imgOneSrc = imgeight.getAttribute('src');
+var mainImg2Src = mainImg2.getAttribute('src');
+mainImg2.setAttribute('src',imgOneSrc);
+imgeight.setAttribute('src',mainImg2Src);
+}
+</script>
+<section id="Content6">
+  <div class="container">
+    <div class="row mt-5">
+      <h1 style="color: red; margin-left: 340px; margin-bottom: 20px; font-size: 50px;">JavaScript Times</h1>
+      <div class="card shadow-lg bg-warning" style="border: 10px solid gray;">
+        <div class="card-body">
+          <h1 id="showTime" style=" font-size: 210px; color: red; padding: 10px;"></h1>
+          <script>
+          function clock(){
+          var ndate = new Date();
+          var minutes = ndate.getMinutes();
+          var seconds = ndate.getSeconds();
+          var hours = ndate.getHours();
+          var showTime = document.getElementById('showTime');
+          showTime.innerHTML = hours+ ' : ' +minutes+ ' : ' +seconds;
+          }
+          setInterval(clock,1000);
+          </script>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ::::::::::::::::::::: Content-End:::::::::::::: -->
+<!-- ::::::::::::::::::::::::Modal-strat::::::::::::::: -->
+<div class="modal fade" id="mymodal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <span style="font-size: 45px; color: blue; margin-left: 60px;"><i class="fa fa-facebook-square"></i></span>
+        <span style="font-size: 45px; color: blue; margin-left: 10px;"><i class="fa fa-twitter-square"></i></span>
+        <span style="font-size: 45px; color: blue; margin-left: 10px;"><i class=" fa fa-instagram"></i></span>
+        <h4 style="margin-left: 30px; margin-top: 18px; color: blue;">SING IN?</h4>
+        <a href="" class="close" data-dismiss="modal">X</a></div>
+        <div class="modal-body">
+          <form action="">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text"><i class="fa fa-user"></i></span>
+              </div>
+              <input type="text" class="form-control" name="email" placeholder="E_mail">
+            </div>
+            <div class="input-group mt-2">
+              <div class="input-group-prepend">
+                <span class="input-group-text"><i class="fa fa-lock"></i></span>
+              </div>
+              <input type="text" name="password" class="form-control" placeholder="Password">
+            </div>
+            <a href="" class="btn btn-outline-info mt-2 btn-block ml-auto" style="">Log In?</a>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <a href="" style="margin-right: 150px;">Forget Password?</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="mrmodal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <span style="font-size: 45px; color: blue; margin-left: 60px;"><i class="fa fa-facebook-square"></i></span>
+          <span style="font-size: 45px; color: blue; margin-left: 10px;"><i class="fa fa-twitter-square"></i></span>
+          <span style="font-size: 45px; color: blue; margin-left: 10px;"><i class=" fa fa-instagram"></i></span>
+          <a href="" class="close" data-dismiss="modal">X</a></div>
+          <div class="modal-body">
+            <form action="">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"><i class="fa fa-user"></i></span>
+                </div>
+                <input type="text" class="form-control" name="First_Name" placeholder="First_Name">
+              </div>
+              <div class="input-group mt-2">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"><i class="fa fa-user"></i></span>
+                </div>
+                <input type="text" class="form-control" name="Last_Name" placeholder="Last_Name">
+              </div>
+              <div class="input-group mt-2">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"><i class="fa fa-lock"></i></span>
+                </div>
+                <input type="text" name="password" class="form-control" placeholder="Password">
+              </div>
+              <div class="input-group mt-2">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"><i class="fa fa-lock"></i></span>
+                </div>
+                <input type="text" name="Confirm password" class="form-control" placeholder=" Confirm Password">
+              </div>
+              <a href="" class="btn btn-outline-info mt-2 btn-block ml-auto" style="">Submit</a>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <a href="" style="margin-right: 150px;">Creat an Account?</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ::::::::::::::::::::::::::::::::::::modal-End::::::::::::::::: -->
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script>
+    $('.owl-carousel').owlCarousel({
+    center: true,
+    nav: true,
+    loop: true,
+    margin: 3,
+    responsive:{
+    0:{
+    item: 1
+    },
+    600:{
+    item:3
+    },
+    1000:{
+    item:6
+    }
+    }
+    });
+    </script>
+    <script src="bootstrap-4.3.1-dist/js/jquery-3.4.1.js"></script>
+    <script src="bootstrap-4.3.1-dist/js/bootstrap.js"></script>
+  </body>
 </html>
