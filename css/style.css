@@ -83,6 +83,18 @@
 .Carousel-img img:hover{
 	transform: scale(1.4);
 }
+/*::::::::::::::::::::::::Content36::::::::::::::::*/
+
+.hridu li{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: transparent;
+	border: 2px double yellow;
+}
+.hridu li.active{
+	background-color: crimson;
+}
 
 
 /*::::::::::::::JavaScript_Strat::::::::::::::::::::::*/
